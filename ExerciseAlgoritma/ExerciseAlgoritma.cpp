@@ -53,3 +53,6 @@ void m_sort(int temp[], int low, int high)
 }
 void merge(int temp[], int low, int mid, int high)
 {
+    int i, YTA, k;
+    int sub1 = mid - low + 1;
+    int sub2 = high - mid;
