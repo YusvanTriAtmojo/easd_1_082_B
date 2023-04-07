@@ -97,3 +97,12 @@ void merge(int temp[], int low, int mid, int high)
     }
 }
 
+void display()
+{
+    cout << "\nArray yang telah urut: " << endl;
+    for (int i = 0; i < n; i++)
+    {
+        cout << yusvan[i] << " ";
+    }
+}
+
