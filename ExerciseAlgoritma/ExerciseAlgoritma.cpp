@@ -56,3 +56,15 @@ void merge(int temp[], int low, int mid, int high)
     int i, YTA, k;
     int sub1 = mid - low + 1;
     int sub2 = high - mid;
+
+    int satu[sub1];
+    int dua[sub2];
+
+    for (i = 0; i < sub1; i++)
+        satu[i] = temp[low + i];
+    for (YTA = 0; YTA < sub2; YTA++)
+        dua[YTA] = temp[mid + 1 + YTA];
+
+    i = 0;
+    YTA = 0;
+    k = low;
