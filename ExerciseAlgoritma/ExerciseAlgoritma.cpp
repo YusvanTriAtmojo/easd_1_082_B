@@ -51,3 +51,5 @@ void m_sort(int temp[], int low, int high)
         merge(temp, low, high, mid);
     }
 }
+void merge(int temp[], int low, int mid, int high)
+{
