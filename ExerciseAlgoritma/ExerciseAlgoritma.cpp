@@ -16,3 +16,15 @@ using namespace std;
 int n;
 int yusvan[102];
 int temp[102];
+void input() {
+    while (true) {
+        cout << "Masukan banyak array : ";
+        cin >> n; 
+        if (n <= 102) {
+            break;
+        }
+        else {
+            cout << "\nArray maksimal 102!!\n";
+        }
+    }
+   
