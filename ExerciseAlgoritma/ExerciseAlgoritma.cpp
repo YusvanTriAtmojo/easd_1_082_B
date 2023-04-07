@@ -9,3 +9,10 @@
 //   Quadratic = bubblesort, selectionsort, insertionsort dan quicksort(kasus terparah).
 //   Longlinear = Shell sort, mergesort, dan quicksort(kasus efisien).
 //6. 
+
+#include <iostream>
+using namespace std;
+
+int n;
+int yusvan[102];
+int temp[102];
