@@ -1,20 +1,11 @@
-// ExerciseAlgoritma.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+//1. Algoritma dibutuhkan untuk menyelesaikan suatu masalah karena ilmu alqoritma mempelajari tentang membuat langkah-langkah atau tahapan dalam menyelesaikan suatu masalah.
+//2. Dua struktur algoritma yaitu static dengan contoh array dan dynamic dengan contoh lingked list.
+//3. Faktor yang mempengaruhi efisiensi waktu eksekusi suatu protgram adalah 
+//   = Kecepatan dari mesin, compiler, operating system, program language, dan size of input.
+//4. Jenis algoritma untuk mengukur data yang ukurannya besar yaitu lebih efektif dengan mergesort karena big O notasinya memiliki O(n log n), 
+//   namun sulit untuk pembuatannya dan jika banyak data urut maka menjadi tidak efektif karena perbandingannya menjadi banyak. 
+//   Namun, tetap saja dalam menghitung data yang besar lebih efektif dengan mergesort dibandingkan jenis lainnya.
+//5. Jenis alqoritma berdasarkan big O notasinya yaitu:
+//   Quadratic = bubblesort, selectionsort, insertionsort dan quicksort(kasus terparah).
+//   Longlinear = Shell sort, mergesort, dan quicksort(kasus efisien).
+//6. 
