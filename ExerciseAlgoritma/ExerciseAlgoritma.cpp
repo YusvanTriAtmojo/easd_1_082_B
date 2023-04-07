@@ -27,4 +27,12 @@ void input() {
             cout << "\nArray maksimal 102!!\n";
         }
     }
-   
+    cout << endl;
+    cout << "\n===================" << endl;
+    cout << "Masukkan data Array" << endl;
+    cout << "===================" << endl;
+
+    for (int i = 0; i < n; i++) {
+        cin >> yusvan[i];
+    }
+}
