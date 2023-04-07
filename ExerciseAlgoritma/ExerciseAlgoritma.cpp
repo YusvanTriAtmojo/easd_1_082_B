@@ -105,4 +105,10 @@ void display()
         cout << yusvan[i] << " ";
     }
 }
-
+int main()
+{
+    input();
+    m_sort(temp, 0, n - 1);
+    display();
+    return 0;
+}
