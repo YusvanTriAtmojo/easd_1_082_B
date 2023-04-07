@@ -82,3 +82,18 @@ void merge(int temp[], int low, int mid, int high)
         }
         k++;
     }
+    while (i < sub1)
+    {
+        temp[k] = satu[i];
+        i++;
+        k++;
+    }
+
+    while (YTA < sub2)
+    {
+        temp[k] = dua[YTA];
+        YTA++;
+        k++;
+    }
+}
+
