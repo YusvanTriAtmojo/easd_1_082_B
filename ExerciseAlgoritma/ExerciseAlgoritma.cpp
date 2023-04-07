@@ -36,3 +36,18 @@ void input() {
         cin >> yusvan[i];
     }
 }
+void merge(int temp[], int low, int mid, int high);
+void m_sort(int temp[], int low, int high)
+{
+    if (low >= high)
+    {
+        return;
+    }
+    else {
+        int mid;
+        m_sort(temp, low, mid);
+        m_sort(temp, mid + 1, high);
+
+        merge(temp, low, high, mid);
+    }
+}
